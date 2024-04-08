@@ -1,0 +1,57 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#home{
+    height: 370px;
+    padding: 3px 68px;
+    /* flex-direction: ; */
+
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+/* services section */
+#services{
+    flex-direction: column;
+    
+}
+#services.box{
+    /* flex-direction: column; */
+    
+}
+
+.Services-container{
+    /* flex-direction: column; */
+}
+
+.name{
+    font-size:26px;
+}
+
+/* .hero{
+    background-color:white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .85rem;
+    /* bottom: 25px; */
+    /* width: 25%;
+    margin: 25px;
+    
+} */
+
+/*.first-img{
+    background-image: url(heroimg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+} */

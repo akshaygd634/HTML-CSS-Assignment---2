@@ -1,0 +1,248 @@
+body{
+    font-family: "Montserrat", sans-serif;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 60px;  
+}
+
+ul {
+    display: flex;   
+  }
+  
+  li {
+    margin: 10px;
+    color:black ;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .icons i {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+  }
+
+/* logo and image */
+
+#logo{ 
+    width: 80px;
+}
+#logo img{
+    width: 100%;
+}
+
+/* image */
+.first-img{
+    height: 100vh;
+    background-image: url("heroimg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero{
+    position: absolute;
+    /* width: 300px; */
+    text-align: center;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    background-image: linear-gradient(90deg, #000, #737373);
+    padding: 10px 40px;
+}
+
+/* home section */
+.home{
+    background-color: #b2b2b2;
+    display: flex;
+    padding: 40px 50px;
+    gap: 70px;
+    text-align: center;
+}
+.home-para p{
+    font-weight:550 ;
+}
+/* services section */
+.Services-container{
+    padding: 50px;
+    background-color: #dad6df;
+}
+.name{
+    font-size: 2.8rem;
+    margin: 20px 0;
+    padding-left: 33px;
+    padding-bottom: 12px;
+}
+#services{
+    display: flex;
+}
+#services .box{
+    margin: 20px;
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+#services .box img{
+    width: 100%;
+    height: 250px;
+}
+
+.left {
+    text-align: left;
+  }
+  
+.center {
+    text-align: center;
+  }
+  
+.right {
+    text-align: right;
+  }
+
+.name2{
+    padding: 20px 0;
+    font-size: 1.3rem;
+    
+}
+.box p{
+    font-weight: 600;
+    
+}
+
+/* button */
+.btn{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* responsive */
+
+  @media (max-width: 860px) {
+    #navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .first-img {
+        height: 50vh;
+    }
+    .hero{
+        font-size: 13px;
+    }
+    .home {
+        display: block;
+        gap: 50px;
+        font-size: 13px;
+      }
+    
+      .home-para {
+        padding: 17px 0;
+        font-size: 13px;
+      }
+      
+      .left {
+        text-align: center;
+        font-size: 13px;
+      }
+      
+      .center {
+        text-align: center;
+        font-size: 13px;
+      }
+      
+      .right {
+        text-align: center;
+        font-size: 13px;
+      }
+      .name{
+        font-size: 30px;
+      }
+      .name2{
+        font-size: 20px;
+      }
+    }
+
+
+@media (max-width: 780px) {
+    #services {
+        display: block;
+    }
+    .hero{
+        font-size: 7px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
